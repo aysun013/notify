@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header css start */
+
+header{
+    background-image: url('img/img.png');
+    /* width: 100%; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1130px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+header h1{
+    font-size: 60px;
+line-height: 20px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Pacifico";
+margin-bottom:40px ;
+}
+
+header p{
+    width: 469px;
+/* height: 216px; */
+font-size: 24px;
+line-height: 36px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Helvetica Neue";
+}
+.link{
+    display: flex;
+}
+.lala a{
+    width: 52px;
+height: 52px;
+border-radius: 26px;
+background-color: #030303;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 25px 20px 0 0;
+/* width: 25px;
+height: 25px; */
+color: #f4f4f4;;
+}
+.active,
+.lala a:hover{
+    width: 52px;
+height: 52px;
+border-radius: 26px;
+background-color: #2ecc71;
+color: #f2f2f2;
+}
+.hand{
+    margin-top: 10%;
+}
+
+/* header css end */
+
+/* design css start */
+.design{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a{
+    margin: 0 60px 0 60px;
+}
+.a div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.design a{
+    text-align: center;
+    width: 98px;
+height: 98px;
+border-radius: 49px;
+background-color: #2ecc71;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #ffffff;
+}
+
+/* .design a i{
+
+} */
+
+.design h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-size: 22px;
+line-height: 18px;
+color: #222222;
+font-weight: 600;
+font-family: "Raleway";
+}
+ .design p{
+    width: 300px;
+/* height: 130px; */
+font-size: 16px;
+/* line-height: 26px; */
+color: #848484;
+font-family: "Helvetica Neue";
+text-align: center;
+ }
+
+ /* design css end */
